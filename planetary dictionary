@@ -1,0 +1,59 @@
+print('1.mercury')
+print('2.venus')
+print('3.earth')
+print('4.mars')
+print('5.jupitor')
+print('6.satrun')
+print('7.uranus')
+print('8.neptune')
+a=input('choose from(1_8)  ')
+if a=='1':
+    print('mercury')
+    print ('gravity=3.7m/s**2')
+    print('moons=0')
+    print('distance from sun=0.39AU')
+elif a=='2':
+    print('venus')
+    print('gravity=8.9m/s**2')
+    print('moons=0')
+    print('distance from the sun=0.72AU')
+elif a=='3':    
+    print('earth')
+    print('gravity=9.8m/s**2')
+    print('moons=1')
+    print('distance from the sun=1AU')
+elif a=='4':
+    print('mars')
+    print('gravity=3.7m/s**2')
+    print('moons=2')
+    print('distance from the sun=1.52AU')
+elif a=='5':
+    print('jupitor')
+    print('gravity=23.1m/s**2')
+    print('moons=95')
+    print('distance from the sun=5.2AU')
+elif a=='6':
+    print('satrun')
+    print('gravity=9m/s**2')
+    print('moons=146')
+    print('distance from sun=9.54AU')
+elif a=='7':
+    print('uranus')
+    print('gravity=8.7m/s**2')
+    print('moons=28')
+    print('distance from the sun=19.2AU')
+elif a=='8':
+    print('neptune')
+    print('gravity=11m/s**2')
+    print('moons=16')
+    print('distance from the sun=30.6AU')
+else:
+    print('invalid choice')
+    
+    
+    
+
+    
+    
+
+    
